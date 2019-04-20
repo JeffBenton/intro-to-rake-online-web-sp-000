@@ -18,6 +18,6 @@ task :console => :environment do
 end
 
 namespace :db
-task :migrate => :environment do
-  Student.create_table
-end
+  task :migrate => :environment do
+    Student.create_table
+  end
